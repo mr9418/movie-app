@@ -8,6 +8,7 @@ function App() {
       <h2>world</h2>
       <h3>gitr</h3>
       <h2>home</h2>
+      <h3>깃허브 올리자</h3>
     </div>
   );
 }
