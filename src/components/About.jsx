@@ -1,5 +1,13 @@
-function Food(){
-    return(
-        <h1>jell</h1>
-    )
+import React, { Component } from 'react';
+
+class About extends Component {
+    render() {
+        return (
+            <div>
+                <h1>home</h1>
+            </div>
+        );
+    }
 }
+
+export default About;
