@@ -1,14 +1,26 @@
 import React from "react"
+import Props1 from "./Props/Props1";
+import Props2 from "./Props/Props2";
+import Props3 from "./Props/Props3";
+import Props4 from "./Props/Props4";
+import App2 from "./State/App2";
+
 
 
 function App() {
+  
   return (
     <div className="App">
-      <h1>hello</h1>
-      <h2>world</h2>
-      <h3>gitr</h3>
-      <h2>home</h2>
-      <h3>깃허브 올리자</h3>
+     <Props1/>
+     <hr/>
+     <Props2/>
+     <hr/>
+     <Props3/>
+     <hr/>
+     <Props4/>
+     <hr/>
+     State 
+      <App2/>
     </div>
   );
 }
